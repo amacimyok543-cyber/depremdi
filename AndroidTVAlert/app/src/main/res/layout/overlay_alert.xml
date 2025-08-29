@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/overlayRoot"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/overlay_bg"
+    android:elevation="12dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEPREM UYARISI"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:paddingBottom="8dp"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marmara Denizi, İstanbul yakınlarında 6.2 büyüklüğünde deprem."
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Geçen süre: 0 sn"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>
